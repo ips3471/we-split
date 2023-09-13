@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ES2015",
+		"allowJs": true,
+		"checkJs": true,
+		"jsx": "react",
+		"outDir": "./build",
+		"rootDir": "./src",
+		"removeComments": true,
+		"noEmit": true,
+		"pretty": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"moduleResolution": "Node",
+		"esModuleInterop": true
+	},
+	"include": ["**/*.ts", "**/*.tsx", "src", "src/content.d.ts"],
+	"exclude": ["node_modules"]
+}

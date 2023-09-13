@@ -1,0 +1,5 @@
+# When generating icons from raw svgs, we need to expose the color value as a prop to make it modifiable in React
+replaceAttrValues: { '#011e41': '{props.color}', '#adb9c3': '{props.color}' }
+icon: true
+dimensions: true
+typescript: true
